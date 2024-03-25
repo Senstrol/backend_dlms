@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://engineering:EtPlsWeOvXng0bvR@light.l0uusyy.mongodb.net/?retryWrites=true&w=majority&appName=light', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('add mongo link here to start', { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use('/auth', authRoutes);
 
